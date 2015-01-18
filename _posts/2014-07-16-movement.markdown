@@ -1,0 +1,16 @@
+---
+name: about
+class: "row text-left"
+layout: post
+title:  "Movement"
+date:   2014-07-16 13:37:05
+categories: jekyll update
+---
+
+UrbanPlay is a movement that is partnering with Schools and Organizations across America to help fight childhood health issues by giving children the tools to make shape their own future/destiny/health.
+
+Childhood obesity is rampant and out of control in the United States. X% of under 18s are considered Obese (a medial term that…) and their generation is the first generation in human history that is projected to have a shorter life expectancy of their parents generation. Obesity is the extreme, but the issues are actually far wide ranging than that. These children grow up facing health problems into later life like X & Y (diabetes and cardio vascular disease). Issues that kill X americans avery year and cost $bn in health costs. They’re growing up in a world where a cheeseburger is cheaper and more accessible than fresh fruit.
+
+Childhood obesity is a tragic consequence of our modern society.
+
+UrbanPlay is a movement to give children the tools to change this destiny. Through UrbanPlay’s programs, children engage in activities that help build confidence in their body’s abilities and also teach them how to take responsibility of their own health decisions. But what makes UrbanPlay unique is that at the core of it’s program, it’s program leaders inspire in the children a sense of ownership of these choices. It gives them practical ways in which they can make good health choices in a world where it’s often very hard to do.
