@@ -1,0 +1,63 @@
+---
+name: founders
+class: founders-section container
+fullwidth: true
+layout: post
+title:  "Meet the Founders"
+date:   2014-07-16 13:27:05
+categories: jekyll update
+---
+
+TODO - make this parralax
+
+Urban Play was developed from research based on Standford blah blah Dr BJ Fogg and...
+
+Founded by Miwa Natsuki and Shane Barnard, UrbanPlay has worked with etc etc
+
+<section class="clearfix">
+
+  <article class="bio col-sm-12 col-lg-6">
+    <h2>Miwa Natsuki</h2>
+    <h3>Co-founder | MA Kinesiology</h3>
+    <p>
+      <strong>Miwa Natsuki</strong>, MA, began her career in the fitness industry in 2005 at UC Berkeley, when she was trained to 
+      become a Group Exercise instructor while pursuing her undergraduate degree. Since then, she has completed her graduate degree 
+      in Kinesiology, with a focus on education and behavior change, at Saint Mary’s College.
+    </p>
+    <p>
+      UrbanPlay was created based on her research during her graduate studies, her experience working with kids through various 
+      organizations and also many years of her experience working as personal trainer and health coach with the adult population. 
+      Furthermore, her passion to create UrbanPlay was fueled by her own transformation from being an overweight and sedentary kid.
+    </p>
+    <div class="founder-headshot" id="miwa-headshot">
+      <img src="/img/miwa.jpg" alt="Miwa Natsuki" />
+    </div>
+  </article>
+
+  <article class="bio col-sm-12 col-lg-6">
+    <h2>Shane Barnard</h2>
+    <h3>Co-founder | JD</h3>
+    <p>
+      <strong>Shane Barnard</strong>, JD, is NASM, ACE and AFAA certified and the co-founder of UrbanPlay and founder of 
+      <a href="http://urbankick.com/" target="_blank">Urbankick</a>. Shane has over 20 years of experience in the fitness industry but
+      it was her work as an attorney for children in foster care that brought her passion for fitness to the younger populations. She 
+      witnessed a growing health crisis among our youth and wanted to help by bringing education and movement to this under-served population.
+    </p>
+    <p>
+      She currently teaches at Crunch, Fitness SF and UC Berkeley where she is a health coach. Shane is a CEC provider for ACE and AFFA 
+      and honored ambassador for lululemon and Larabar.
+    </p>
+    <div class="founder-headshot" id="shane-headshot">
+      <img src="/img/shane.jpg" alt="Shane Barnard" />
+    </div>
+  </article>
+
+</section>
+
+## To date, UrbanPlay has helped X kids to Y
+
+<figure>
+  TODO - school logos
+  <figcaption>Some of the many schools, clubs and communities UrbanPlay has worked with</figcaption>
+</figure>
+
