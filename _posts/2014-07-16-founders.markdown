@@ -30,7 +30,7 @@ Founded by Miwa Natsuki and Shane Barnard, UrbanPlay has worked with etc etc
       Furthermore, her passion to create UrbanPlay was fueled by her own transformation from being an overweight and sedentary kid.
     </p>
     <div class="founder-headshot" id="miwa-headshot">
-      <img src="/img/miwa.jpg" alt="Miwa Natsuki" />
+      <img src="/img/miwa.jpg" alt="Miwa Natsuki" class="img-responsive" />
     </div>
   </article>
 
@@ -48,7 +48,7 @@ Founded by Miwa Natsuki and Shane Barnard, UrbanPlay has worked with etc etc
       and honored ambassador for lululemon and Larabar.
     </p>
     <div class="founder-headshot" id="shane-headshot">
-      <img src="/img/shane.jpg" alt="Shane Barnard" />
+      <img src="/img/shane.jpg" alt="Shane Barnard" class="img-responsive" />
     </div>
   </article>
 
