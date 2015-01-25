@@ -23,24 +23,40 @@ layout: default
       </div>
   </section>
   {% for post in site.posts %}
-    {%if post.fullwidth%}
-       <section id="{{post.name}}" class="content-section text-center">
-       <div class="{{post.class}}">
+    {%if post.name == 'founders'%}
+      <section id="{{post.name}}" class="content-section text-center">
+        <div class="section-header clearfix text-left">
           <div class="col-lg-8 col-lg-offset-2">
-              <h2>{{post.title}}</h2>
-              {{post.content}}
+            <h2>{{post.title}}</h2>
           </div>
-      </div>
-    </section>
-    {%else%}
-       <section id="{{post.name}}" class="container content-section text-center">
+        </div>
         <div class="{{post.class}} row">
+          <div class="col-lg-8 col-lg-offset-2">
+            {{post.content}}
+          </div>
+        </div>
+    </section>
+
+    {%else%}
+      {%if post.fullwidth%}
+         <section id="{{post.name}}" class="content-section text-center">
+         <div class="{{post.class}}">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>{{post.title}}</h2>
                 {{post.content}}
             </div>
         </div>
       </section>
-    {%endif%}
+      {%else%}
+         <section id="{{post.name}}" class="container content-section text-center">
+          <div class="{{post.class}} row">
+              <div class="col-lg-8 col-lg-offset-2">
+                  <h2>{{post.title}}</h2>
+                  {{post.content}}
+              </div>
+          </div>
+        </section>
+      {%endif%}
+     {%endif%}
    
   {% endfor %}

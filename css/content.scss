@@ -1,19 +1,81 @@
 ---
 ---
 
-.founders-section {
-  .founder-headshot {
+// TODO - share these across files
+$primary: #28c3ab;
+$light: #fff;
+$dark: #000;
 
+ // Content Sections 
+
+.content-section {
+  padding-top: 100px;
+}
+
+.founders-section {
+  width: 100%;
+  padding: 50px 0;
+  color: $dark;
+  text-align: left;
+}
+
+@media(min-width:767px) {
+  .content-section {
+      padding-top: 250px;
+  }
+
+  .founders-section {
+      padding: 100px 0;
+  }
+
+}
+
+#founders {
+  .section-header {
+    color: $light;
+    height: 450px;
+    background: url(../img/founders-bg.jpg) no-repeat top center scroll;
+    background-color: $light;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    h2 {
+      margin: 1.5em 0;
+    }
+  }
+
+  .founder-headshot {
     width: 400px;
     height: 557px;
-    background-color: #ccc;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     text-align: left;
+    position: relative;
     img {
       width: 100%;
     }
+    .founder-name {
+      position: absolute; 
+      height:100%; 
+      width:100%; 
+      text-align:center; 
+      background:$light;
+      background:rgba(255,255,255,.5);
+      color: $dark;
+      opacity: 0.4;
+
+      transition: opacity 0.5s;
+
+      &:hover {
+        opacity: 0;
+      }
+      h2 {
+        margin-top: 30px;
+      }
+    }
   }
 }
+
