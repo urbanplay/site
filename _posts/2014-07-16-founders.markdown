@@ -2,6 +2,7 @@
 name: founders
 class: founders-section container
 fullwidth: true
+header: true
 layout: post
 title:  "Meet the Founders"
 date:   2014-07-16 13:27:05

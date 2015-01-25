@@ -23,7 +23,9 @@ layout: default
       </div>
   </section>
   {% for post in site.posts %}
-    {%if post.name == 'founders'%}
+
+    {%if post.header%}
+
       <section id="{{post.name}}" class="content-section text-center">
         <div class="section-header clearfix text-left">
           <div class="col-lg-8 col-lg-offset-2">
@@ -38,8 +40,10 @@ layout: default
     </section>
 
     {%else%}
+
       {%if post.fullwidth%}
-         <section id="{{post.name}}" class="content-section text-center">
+    
+       <section id="{{post.name}}" class="content-section text-left">
          <div class="{{post.class}}">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>{{post.title}}</h2>
@@ -47,8 +51,10 @@ layout: default
             </div>
         </div>
       </section>
+
       {%else%}
-         <section id="{{post.name}}" class="container content-section text-center">
+
+         <section id="{{post.name}}" class="container content-section text-left">
           <div class="{{post.class}} row">
               <div class="col-lg-8 col-lg-offset-2">
                   <h2>{{post.title}}</h2>
@@ -56,7 +62,9 @@ layout: default
               </div>
           </div>
         </section>
+
       {%endif%}
+
      {%endif%}
    
   {% endfor %}

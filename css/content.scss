@@ -6,10 +6,24 @@ $primary: #28c3ab;
 $light: #fff;
 $dark: #000;
 
+@mixin header-background-size {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
  // Content Sections 
 
 .content-section {
   padding-top: 100px;
+}
+
+.section-header {
+  color: $light;
+  background-color: $light;
+  h2 {
+    margin: 1.5em 0;
+  }
 }
 
 .founders-section {
@@ -32,17 +46,9 @@ $dark: #000;
 
 #founders {
   .section-header {
-    color: $light;
     height: 450px;
     background: url(../img/founders-bg.jpg) no-repeat top center scroll;
-    background-color: $light;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    h2 {
-      margin: 1.5em 0;
-    }
+    @include header-background-size;
   }
 
   .founder-headshot {
@@ -76,6 +82,15 @@ $dark: #000;
         margin-top: 30px;
       }
     }
+  }
+}
+
+
+#contact {
+  .section-header {
+    height: 450px;
+    background: url(../img/contact-bg.jpg) no-repeat top center scroll;
+    @include header-background-size;
   }
 }
 
