@@ -1,10 +1,12 @@
 ---
 name: contact
-class: row
+class: contact-section container
 layout: post
 title:  ""
 short-title: "Contact"
 date:   2014-07-16 13:17:05
+header: true
+fullwidth: true
 categories: jekyll update
 ---
 
