@@ -12,7 +12,7 @@ categories: jekyll update
 <section class="clearfix" style="margin-bottom:30px;">
 
   <div class="row">
-    <article class="bio col-sm-12 col-lg-6">
+    <article class="bio col-sm-12 col-lg-5 col-lg-offset-1">
       <h2>Miwa Natsuki</h2>
       <h3>Co-founder | MA Kinesiology</h3>
       <p>
@@ -27,7 +27,7 @@ categories: jekyll update
       </p>
     </article>
 
-    <article class="bio col-sm-12 col-lg-6">
+    <article class="bio col-sm-12 col-lg-5 col-lg-offset-1">
       <h2>Shane Barnard</h2>
       <h3>Co-founder | JD</h3>
       <p>
