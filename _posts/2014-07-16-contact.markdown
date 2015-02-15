@@ -1,6 +1,6 @@
 ---
 name: contact
-class: contact-section container
+class: row text-left
 layout: post
 title:  ""
 short-title: "Contact"
