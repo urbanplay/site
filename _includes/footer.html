@@ -42,6 +42,22 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
+
+{% raw %}
+<script type="text/x-handlebars" id="workedWithTemplate">
+  <div class="wrapper"> <!-- wrapper -->
+    {{#organizations}}
+      <div class="container" data-toggle="tooltip" data-title="{{extra}}"> <!-- container -->
+        <img src="/img/worked_with/{{img}}" />
+        <div> <!-- name -->
+          Name: {{name}}
+        </div>
+      </div>
+    {{/organizations}}
+  </div>
+</script>
+{% endraw %}
 
 <!-- Custom Theme JavaScript -->
 <script src="js/underscore.js"></script>

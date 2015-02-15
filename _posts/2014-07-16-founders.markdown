@@ -64,11 +64,51 @@ categories: jekyll update
 </section>
 
 <div class="row">
-  <h2 class="text-center">To date, UrbanPlay has helped X kids to Y</h2>
+  <h2 class="text-center">To date, UrbanPlay has helped hundreds of kids to start taking responsibility for their health</h2>
 
-  <figure>
-    TODO - school logos
+  <figure id="worked-with">
+    <div id="worked-with-inner"></div>
     <figcaption>Some of the many schools, clubs and communities UrbanPlay has worked with</figcaption>
   </figure>
 </div>
+<script>
+  window.workedWithJSON = {
+    organizations: [
+      {
+        name: 'Urban Promise Academy',
+        extra: 'Offer weekly classes- currently still working with them',
+        img: 'upa.jpg'
+      },
 
+      {
+        name: 'Tenderloin After School Program',
+        extra: 'Offered weekly classes',
+        img: 'tenderlion.jpg'
+      },
+
+      {
+        name: 'Edna Brewer Middle School',
+        extra: 'Offered a one-day outdoor play day',
+        img: 'edna_brewer.jpg'
+      },
+
+      {
+        name: 'Bay Area Community Resources',
+        extra: 'Partnered with them at their after school program resource fair',
+        img: 'bacr.jpg'
+      },
+
+      {
+        name: 'SCW Mania Conferences',
+        extra: 'Offered a workshop to fitness professionals about Urbanplay',
+        img: 'scw_mania.jpg'
+      },
+
+      {
+        name: 'UC FitCon',
+        extra: 'Offered a workshop to fitness professionals about UrbanPlay',
+        img: 'uc_fitcon.jpg'
+      }
+    ]
+  };
+</script>
