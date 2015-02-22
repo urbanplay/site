@@ -46,18 +46,26 @@
 
 {% raw %}
 <script type="text/x-handlebars" id="workedWithTemplate">
-  <div class="wrapper"> <!-- wrapper -->
+  <div class="row">
     {{#organizations}}
-      <div class="container" data-toggle="tooltip" data-title="{{extra}}"> <!-- container -->
-        <img src="/img/worked_with/{{img}}" />
-        <div> <!-- name -->
-          Name: {{name}}
-        </div>
+      <div class="col-md-3 col-xs-6 worked-with">
+        <img class="img-responsive" src="/img/worked_with/{{img}}" />
+        <a class="thumbnail" href="{{url}}" target="_blank">
+          <div class="worked-with-name-bg">
+            <div class="worked-with-name-table text-left">
+              <div class="worked-with-name">Parnered with <strong>{{name}}</strong> {{offer}}</div>
+            </div>
+          </div>
+        </a>
       </div>
     {{/organizations}}
   </div>
 </script>
 {% endraw %}
+
+<style>
+  
+</style>
 
 <!-- Custom Theme JavaScript -->
 <script src="js/underscore.js"></script>

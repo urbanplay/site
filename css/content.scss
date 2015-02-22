@@ -94,3 +94,51 @@ $dark: #000;
   }
 }
 
+#worked-with {
+  figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+  }
+}
+
+.worked-with {
+  position: relative;
+  margin-bottom: 1rem;
+  cursor: default;
+  .thumbnail {
+    border: none;
+  }
+
+  .worked-with-name-bg {
+    background: #333;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    position: absolute;
+    bottom :0;
+    padding: 0.5rem;
+    height: 100%;
+
+    opacity: 0;
+    -webkit-transition: opacity ease-in-out 0.5s;
+    -moz-transition: opacity ease-in-out 0.5s;
+    -o-transition: opacity ease-in-out 0.5s;
+    transition: opacity ease-in-out 0.5s;
+
+    &:hover {
+      opacity: 1
+    }
+
+    .worked-with-name-table {
+      display: table;
+      height: 100%;
+
+      .worked-with-name {
+        font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 0.8rem;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+}

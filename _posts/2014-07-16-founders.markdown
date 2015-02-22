@@ -64,50 +64,57 @@ categories: jekyll update
 </section>
 
 <div class="row">
-  <h2 class="text-center">To date, UrbanPlay has helped hundreds of kids to start taking responsibility for their health</h2>
+  <h2 class="text-center">To date, UrbanPlay has inspired hundreds of kids to start taking responsibility for their health</h2>
 
   <figure id="worked-with">
     <div id="worked-with-inner"></div>
-    <figcaption>Some of the many schools, clubs and communities UrbanPlay has worked with</figcaption>
+    <figcaption>Some of the many schools, clubs and communities UrbanPlay has worked with.</figcaption>
   </figure>
 </div>
+
 <script>
   window.workedWithJSON = {
     organizations: [
       {
         name: 'Urban Promise Academy',
-        extra: 'Offer weekly classes- currently still working with them',
-        img: 'upa.jpg'
+        offer: 'to offer weekly classes',
+        img: 'upa.jpg',
+        url: 'http://www.urbanpromiseacademy.org/'
       },
 
       {
         name: 'Tenderloin After School Program',
-        extra: 'Offered weekly classes',
-        img: 'tenderlion.jpg'
+        offer: 'to offer weekly classes',
+        img: 'tenderlion.jpg',
+        url: 'http://www.tndc.org/our-services/after-school-program/'
       },
 
       {
         name: 'Edna Brewer Middle School',
-        extra: 'Offered a one-day outdoor play day',
-        img: 'edna_brewer.jpg'
+        offer: 'to offer a one-day outdoor play day',
+        img: 'edna_brewer.jpg',
+        url: 'http://ednabrewer.net/'
       },
 
       {
         name: 'Bay Area Community Resources',
-        extra: 'Partnered with them at their after school program resource fair',
-        img: 'bacr.jpg'
+        offer: 'at their after school program resource fair',
+        img: 'bacr.jpg',
+        url: 'http://www.bacr.org/'
       },
 
       {
         name: 'SCW Mania Conferences',
-        extra: 'Offered a workshop to fitness professionals about Urbanplay',
-        img: 'scw_mania.jpg'
+        offer: 'to offer a workshop to fitness professionals about Urbanplay',
+        img: 'scw_mania.jpg',
+        url: 'http://scwfit.com/mania/'
       },
 
       {
         name: 'UC FitCon',
-        extra: 'Offered a workshop to fitness professionals about UrbanPlay',
-        img: 'uc_fitcon.jpg'
+        offer: 'to offer a workshop to fitness professionals about UrbanPlay',
+        img: 'uc_fitcon.jpg',
+        url: 'http://www.ucfitcon.com/'
       }
     ]
   };
