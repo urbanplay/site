@@ -6,7 +6,6 @@ function compactCallHandlebars(
   ,arrParcialTemplates /*Array of parcial templates to register (ids script tag)*/
   ,jsonData /*data*/
   ){
-    debugger;
     //Compile template:
     var theTemplate = Handlebars.compile ( $( "#" + idMainTemplate ).html() ); 
     //Add parcials with the same name as id:
@@ -22,8 +21,16 @@ function compactCallHandlebars(
 
 (function($){
 
-    compactCallHandlebars("#worked-with-inner", "workedWithTemplate",[], workedWithJSON);   
+    if ($('#worked-with-inner').length > 0) {
+      compactCallHandlebars("#worked-with-inner", "workedWithTemplate",[], workedWithJSON);   
+    }
 
     $('[data-toggle="tooltip"]').tooltip();
+
+
+    $('a#donate-trigger').on('click', function(e) {
+      e.preventDefault();
+      $('form#donate').submit();
+    }); 
 
 })(jQuery);

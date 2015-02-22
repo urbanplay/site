@@ -41,10 +41,12 @@ window.changer = function($targetElement, data, delayTime) {
   window.startSomethingChanger = new changer($('#start_'), ['something', 'a movement', 'today']);
   window.startSomethingChanger.start();
 
-  var ctaData = _.map($('[data-changer="cta"]'), function(element){ return element.textContent; });
-  window.ctaChanger = new changer($('#cta-holder'), ctaData, 5000);
-  $('#cta-holder').text(ctaData[0]);
-  $('#cta-response').removeClass('hidden');
-  window.ctaChanger.start();
+  if ($('[data-changer="cta"]').length > 0) {
+    var ctaData = _.map($('[data-changer="cta"]'), function(element){ return element.textContent; });
+    window.ctaChanger = new changer($('#cta-holder'), ctaData, 5000);
+    $('#cta-holder').text(ctaData[0]);
+    $('#cta-response').removeClass('hidden');
+    window.ctaChanger.start();
+  }
 
 })(jQuery);
