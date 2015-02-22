@@ -28,7 +28,7 @@ categories: jekyll update
 <h2 id="cta-response" class="hidden">then you're already <em>a part of the movement</em></h2>
 
 <section class="col-sm-12 col-lg-4">
-  <a href="/next-steps" class="btn btn-lg btn-default btn-block" role="button">
+  <a href="/contact" class="btn btn-lg btn-default btn-block" role="button">
     Next Steps
   </a>
 </section>
