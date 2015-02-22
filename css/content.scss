@@ -142,3 +142,16 @@ $dark: #000;
     }
   }
 }
+
+#faq {
+  dl {
+    dt, dd {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+    }
+    dd {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
