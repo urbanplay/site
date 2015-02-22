@@ -33,4 +33,14 @@ function compactCallHandlebars(
       $('form#donate').submit();
     }); 
 
+    $('select[name="services"]').on('change', function(e) {
+      $input = $(e.target);
+      $otherInput = $('input[name="services-other"]');
+      if ($input.val() === 'other') {
+        $otherInput.removeClass('hidden').focus();
+      } else {
+        $otherInput.addClass('hidden').val('');
+      }
+    });
+
 })(jQuery);
