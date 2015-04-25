@@ -4,8 +4,8 @@ email: miwa@urbanplayfitness.org
 description: "TODO - Description"
 baseurl: ""
 url: "http://urbanplayfitness.org"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: heyurbanplay
+github_username:  urbanplay
 
 # Build settings
 markdown: kramdown
