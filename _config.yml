@@ -6,6 +6,7 @@ baseurl: ""
 url: "http://urbanplayfitness.org"
 twitter_username: heyurbanplay
 github_username:  urbanplay
+blog_url: "http://blog.urbanplayfitness.org/"
 
 # Build settings
 markdown: kramdown
