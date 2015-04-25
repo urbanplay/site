@@ -35,19 +35,19 @@ categories: jekyll update
 
 <section class="col-lg-8 col-lg-offset-2">
   <div class="btn-group btn-group-justified" role="group">
-    <a href="/faq" class="btn btn-lg btn-default " role="button">
+    <a href="/faq" class="btn btn-lg btn-default" role="button">
       FAQ
     </a>
 
-    <a href="/faq" class="btn btn-lg btn-default " role="button">
+    <a href="/opportunities" class="btn btn-lg btn-default" role="button">
       Get Involved
     </a>
 
-    <a href="/faq" class="btn btn-lg btn-default " role="button">
+    <a href="/donate" class="btn btn-lg btn-default" role="button">
       Donate
     </a>
 
-    <a href="/faq" class="btn btn-lg btn-default " role="button">
+    <a href="{{ site.blog_url }}" class="btn btn-lg btn-default" role="button">
       Our Blog
     </a>
   </div>
