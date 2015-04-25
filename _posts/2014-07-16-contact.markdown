@@ -25,16 +25,30 @@ categories: jekyll update
 
 <h2 id="cta-holder"></h2>
 
-<h2 id="cta-response" class="hidden">then you're already <em>a part of the movement</em></h2>
+<h2 id="cta-response" class="hidden">then you're ready to be <em>a part of the movement</em></h2>
 
-<section class="col-sm-12 col-lg-4">
-  <a href="/contact" class="btn btn-lg btn-default btn-block" role="button">
-    Next Steps
+<section class="col-lg-8 col-lg-offset-2">
+  <a href="/contact" class="btn btn-huge btn-success btn-block" role="button" style="margin:100px 0;">
+    Contact Us To <strong>Get started</strong>
   </a>
 </section>
 
-<section class="col-sm-12 col-lg-4">
-  <a href="/faq" class="btn btn-lg btn-default btn-block" role="button">
-    FAQ
-  </a>
+<section class="col-lg-8 col-lg-offset-2">
+  <div class="btn-group btn-group-justified" role="group">
+    <a href="/faq" class="btn btn-lg btn-default " role="button">
+      FAQ
+    </a>
+
+    <a href="/faq" class="btn btn-lg btn-default " role="button">
+      Get Involved
+    </a>
+
+    <a href="/faq" class="btn btn-lg btn-default " role="button">
+      Donate
+    </a>
+
+    <a href="/faq" class="btn btn-lg btn-default " role="button">
+      Our Blog
+    </a>
+  </div>
 </section>
