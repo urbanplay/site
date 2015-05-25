@@ -385,6 +385,7 @@ footer {
   margin: 0 auto;
 }
 
+
 // Small screen overrides
 @media (max-width: 767px) {
   .btn .hidden-xs {
@@ -393,5 +394,16 @@ footer {
 
   .navbar {
     border-bottom: 1px solid #ccc;
+  }
+
+  .navbar-custom {
+    color: $dark;
+    a {
+      color: $dark;
+    }
+  }
+
+  .row {
+    margin: 0;
   }
 }

@@ -31,15 +31,12 @@ $dark: #000;
   padding: 50px 0;
   color: $dark;
   text-align: left;
-  &.row {
-    margin: 0;
-  }
 }
 
 @media(min-width:767px) {
   .content-section {
       padding-top: 250px;
-  }
+    }
 
   .content-section#about {
     padding-top: 150px; }
