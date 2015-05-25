@@ -378,11 +378,20 @@ footer {
 }
 
 .btn .hidden-xs {
-    display: inline-block !important;
+  display: inline-block !important;
 }
 
+.img-center {
+  margin: 0 auto;
+}
+
+// Small screen overrides
 @media (max-width: 767px) {
-.btn .hidden-xs {
-  display: none!important;
- }
+  .btn .hidden-xs {
+    display: none!important;
+   }
+
+  .navbar {
+    border-bottom: 1px solid #ccc;
+  }
 }
