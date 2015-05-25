@@ -29,25 +29,25 @@ categories: jekyll update
 
 <section class="col-lg-8 col-lg-offset-2">
   <a href="/contact" class="btn btn-huge btn-success btn-block" role="button" style="margin:100px 0;">
-    Contact Us To <strong>Get started</strong>
+    Contact Us <span class="hidden-xs">To <strong>Get started</strong></span>
   </a>
 </section>
 
-<section class="col-lg-8 col-lg-offset-2">
-  <div class="btn-group btn-group-justified" role="group">
-    <a href="/faq" class="btn btn-lg btn-default" role="button">
+<section class="col-lg-8 col-lg-offset-2 hidden-xs">
+  <div class="btn-group btn-group-justified btn-group-lg" role="group">
+    <a href="/faq" class="btn btn-default" role="button">
       FAQ
     </a>
 
-    <a href="/opportunities" class="btn btn-lg btn-default" role="button">
+    <a href="/opportunities" class="btn btn-default" role="button">
       Get Involved
     </a>
 
-    <a href="/donate" class="btn btn-lg btn-default" role="button">
+    <a href="/donate" class="btn btn-default" role="button">
       Donate
     </a>
 
-    <a href="{{ site.blog_url }}" class="btn btn-lg btn-default" role="button">
+    <a href="{{ site.blog_url }}" class="btn btn-default" role="button">
       Our Blog
     </a>
   </div>

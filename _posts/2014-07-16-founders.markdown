@@ -43,7 +43,7 @@ categories: jekyll update
     </article>
   </div>
 
-  <div class="row">
+  <div class="row hidden-xs">
 
     <article class="col-sm-6 col-lg-6">
       <div class="founder-headshot col-lg-4 col-lg-offset-2" id="miwa-headshot">

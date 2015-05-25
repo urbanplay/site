@@ -24,7 +24,7 @@ layout: default
   </section>
   {% for post in site.posts %}
 
-    {%if post.header%}
+    {%if post.name == 'founders'%}
 
       <section id="{{post.name}}" class="content-section text-center">
         <div class="section-header clearfix text-left">
@@ -33,7 +33,22 @@ layout: default
           </div>
         </div>
         <div class="{{post.class}} row">
+          <div class="col-lg-8 col-lg-offset-2 col-xs-12 ">
+            {{post.content}}
+          </div>
+        </div>
+    </section>
+
+    {%elsif post.header%}
+
+      <section id="{{post.name}}" class="content-section text-center">
+        <div class="section-header clearfix text-left">
           <div class="col-lg-8 col-lg-offset-2">
+            <h2>{{post.title}}</h2>
+          </div>
+        </div>
+        <div class="{{post.class}} row">
+          <div class="col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
             {{post.content}}
           </div>
         </div>
@@ -45,7 +60,7 @@ layout: default
     
        <section id="{{post.name}}" class="content-section text-left">
          <div class="{{post.class}}">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
                 <h2>{{post.title}}</h2>
                 {{post.content}}
             </div>
@@ -56,7 +71,7 @@ layout: default
 
          <section id="{{post.name}}" class="container content-section text-left">
           <div class="{{post.class}} row">
-              <div class="col-lg-8 col-lg-offset-2">
+              <div class="col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1">
                   <h2>{{post.title}}</h2>
                   {{post.content}}
               </div>
